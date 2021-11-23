@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: "Inter";
+    padding: 0;
+    height: 100vh;
+    background-color: #282D35;
+    font-size: 16px;
+}
+
+.navbar {
+    background-color: #21222A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 91px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.navbar_logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_title {
+    color: #61DAFB;
+    font-size: 22.25px;
+    font-weight: 600;
+}
+
+.logo {
+   margin-right: 6.7px;
+}
+
+.navbar_title {
+    color: #DEEBF8;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.main_content {
+    padding: 27px;
+    background-color: #282D35;
+}
+
+.main_title {
+    font-size: 39.06px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    text-align: left;
+}
+
+.main_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+
+}
+
+li::before {content: "•"; color: #61DAFB;
+    display: inline-block; width: 19.61px;
+    }
+
+.main_list li{
+    font-size: 1s6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-block: 10px;
+
+}
